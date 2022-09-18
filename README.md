@@ -1,5 +1,9 @@
 # evhz
 
+** Forked from https://git.sr.ht/~iank/evhz on 20220918 **
+
+---
+
 Show mouse refresh rate under linux + evdev
 
 For information about polling rate, see https://wiki.archlinux.org/index.php/Mouse_Polling_Rate
