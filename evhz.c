@@ -114,7 +114,6 @@ int main(int argc, char *argv[]) {
                 continue;
             }
 
-            if(event.type == EV_REL || event.type == EV_ABS) {
                 unsigned long long time, timediff;
                 unsigned hz = 0;
 
@@ -146,7 +145,6 @@ int main(int argc, char *argv[]) {
                 }
 
                 events[i].prev_time = time;
-            }
         }
     }
 
