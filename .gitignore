@@ -17,3 +17,7 @@
 *.app
 
 /evhz
+/evhz_SDL2
+
+# projects
+.vscode
