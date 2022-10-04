@@ -1,0 +1,8 @@
+#!/bin/bash
+cd "${BASH_SOURCE%/*}"
+
+g++ -o evhz_SDL2 evhz_sdl2.cpp -lSDL2
+
+if [ $? == 0 ]; then 
+  ./evhz_SDL2 "$@"
+fi
